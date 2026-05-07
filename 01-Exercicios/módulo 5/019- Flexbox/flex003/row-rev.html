@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        div.pai {
+            background-color: lightpink;
+            display: flex;
+            /*conteúdo da direita pra esquerda e ira quebrar na direção do cross-axis (que é de baixo pra cima)*/
+            flex-flow: row-reverse wrap-reverse;
+        }
+        div.filho {
+            background-color: lightblue;
+           border: 1px solid black;
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">exemplo de bloco a</div>
+        <div class="filho">exemplo de bloco b</div>
+        <div class="filho">exemplo de bloco c</div>
+        <div class="filho">exemplo de bloco d</div>
+        <div class="filho">exemplo de bloco e</div>
+        <div class="filho">exemplo de bloco f</div>
+        <div class="filho">exemplo de bloco g</div>
+    </div>
+</body>
+</html>
