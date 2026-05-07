@@ -51,3 +51,34 @@ flax-wrap: wrap-reverse; (quebra, so que no sentido oposto do eixo cross-axis)
 ##flex-flow: (shorthand) flex-direction + flex-wrap
 
 flex-flow: row nowrap; (padrão)
+
+
+##justify-content -- main-axis
+
+
+#flex-start (colado ao main-start e joga o espaço branco la para o main-and)
+
+#flex-end (colado ao main-and e joga o espaço branco la para o main-start)
+
+#center (centralizado os espaços brancos serao distribuido igualmente nos dois lados (start e and))
+
+#space-between (o primeiro elemento colado no main-start e o último elemento colado no main-and)
+
+
+#space-evenly (nao ira colar os elementos no start ou and)
+
+
+#space-around (ele vai pegar o contêiner e vai dividir por x elementos/itens que o haverá no conteiner)
+
+
+##align-items
+
+#stretch (padrao, ele vai esticar os elementos)
+
+##flex-start (ele vai grudar sempre no início no eixo transversal)
+
+
+##flex-and (ele vai grudar sempre no final do eixo transversal)
+
+
+##center (centralizar os elementos)
