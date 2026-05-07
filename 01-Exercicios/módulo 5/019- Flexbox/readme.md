@@ -42,12 +42,12 @@ eixo transversal= cross-axis: (main-end (esquerda para direita))
 
 padrão= flax-wrap:nowrap; (nao quebra)
 
-flax-wrap: wrap; (quebra ele sempre no eixo cross-axis)
+flax-wrap: wrap; (quebra, so que ele sempre no eixo cross-and)
 
-flax-wrap: wrap-reverse; (quebra so que no sentido oposto do eixo cross-axis)
+flax-wrap: wrap-reverse; (quebra, so que no sentido oposto do eixo cross-axis)
 
 
 
 ##flex-flow: (shorthand) flex-direction + flex-wrap
 
-flex-flow: row nowrap;
+flex-flow: row nowrap; (padrão)
