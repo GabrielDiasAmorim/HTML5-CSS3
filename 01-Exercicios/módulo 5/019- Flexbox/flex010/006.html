@@ -15,17 +15,18 @@
            border: 1px solid black;
            text-align: center;
             
-            flex-basis: 150px; /*(a caixa/item tera o tamanho de 150px)*/
-
-            flex-shrink: 1; /*padrao (pode diminuir)*/
-            flex-grow: 1; /*( pode crescer)*/
+            flex-basis: 200px; /
+        }
+        #b1 {
+            
+            flex-grow: 1;
         }
     </style>
 </head>
 <body>
     <div class="pai">
         <div class="filho">a</div>
-        <div class="filho">b</div>
+        <div class="filho" id="b1">b</div>
         <div class="filho">c</div>
     </div>
 </body>
