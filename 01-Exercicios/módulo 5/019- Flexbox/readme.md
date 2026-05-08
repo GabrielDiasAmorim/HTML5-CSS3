@@ -88,6 +88,7 @@ flex-flow: row nowrap; (padrão)
 ##align-content
 
 #stretch (padrão vai pegar toda area disponível e vai dividir)
+
 #flex-star (vai pegar todos os elementos e vai grudar no cross-start)
 
 flex-and (vai pegar todos os elementos r vai grudar no cross-and)
