@@ -75,10 +75,28 @@ flex-flow: row nowrap; (padrão)
 
 #stretch (padrao, ele vai esticar os elementos)
 
-##flex-start (ele vai grudar sempre no início no eixo transversal)
+#flex-start (ele vai grudar sempre no início no eixo transversal)
 
 
-##flex-and (ele vai grudar sempre no final do eixo transversal)
+#flex-and (ele vai grudar sempre no final do eixo transversal)
 
 
-##center (centralizar os elementos)
+#center (centralizar os elementos)
+
+
+
+##align-content
+
+#stretch (padrão vai pegar toda area disponível e vai dividir)
+#flex-star (vai pegar todos os elementos e vai grudar no cross-start)
+
+flex-and (vai pegar todos os elementos r vai grudar no cross-and)
+
+#center (vai centralizar e vai criar espaços em branco tanto no cross-start como no cross-and)
+
+space-between (vai pegar os primeiros elementos e vai colocar próximo ao cross-start e vai pegar o último elemento e vai colocar próximo ao cross-end e ia dividir o restante no meio)
+
+space-evenly (coloca espaço no cross star e no cross end e entre os elementos existe o mesmo espaçamento)
+
+
+space-around (ele vai dividir o eixo transvrsal em parte iguais e vai colocar os elementos centralizados )
