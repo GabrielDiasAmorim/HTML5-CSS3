@@ -8,20 +8,20 @@
         div.pai {
             background-color: lightpink;
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
         }
         div.filho {
             background-color: lightblue;
            border: 1px solid black;
            text-align: center;
             
-            flex-basis: 150px; /*(a caixa/item tera o tamanho de 150px)*/
+            flex-basis: 150px; /*padrao (a caixa/item tera o tamanho do conteúdo)*/
 
             flex-shrink: 1; /*padrao (pode diminuir)*/
-            flex-grow: 1; /*(pode crescer)*/
+            flex-grow: 1; /*padrao ( pode crescer)*/
         }
     </style>
-    <!--pode diminuir e pode crescer-->
+    <!--ele pode diminuir e pode crescer so que ira quebra ao crescer demais, so que na linha abaixo ele ira ocupar toda a linha (de uma ponta a outra)-->
 </head>
 <body>
     <div class="pai">
