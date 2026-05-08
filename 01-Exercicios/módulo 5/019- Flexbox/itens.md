@@ -13,3 +13,8 @@ stretch
 
 #flex-basis (tamanho do conteúdo)
 auto (parrao)
+
+
+#flex shirink 1 (padrao) (pode encolher)
+
+flex grow 0 (padrao) (nao pode crescer)
