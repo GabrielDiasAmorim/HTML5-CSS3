@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        div.pai {
+            background-color: lightpink;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            height: 400px;
+        }
+        div.filho {
+            background-color: lightblue;
+           border: 1px solid black;
+           text-align: center;
+           padding: 20px;
+        }
+        #i1 {
+            align-self: auto;
+        }
+        #i2 {
+            align-self: flex-end;
+        }
+        #i3 {
+            align-self: stretch;
+        }
+        #i4 {
+            align-self: center;
+        }
+        #i5 {
+            align-self: stretch;
+        }
+        #i6 {
+            align-self: center;
+        }
+        #i7 {
+            align-self: flex-start;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho" id="i1">a</div>
+        <div class="filho" id="i2">b</div>
+        <div class="filho" id="i3">c</div>
+        <div class="filho"i id="i4">d</div>
+        <div class="filho" id="i5">e</div>
+        <div class="filho" id="i6">f</div>
+        <div class="filho" id="i7">g</div>
+    </div>
+</body>
+</html>
