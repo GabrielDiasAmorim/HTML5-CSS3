@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        div.pai {
+            background-color: lightpink;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.filho {
+            background-color: lightblue;
+           border: 1px solid black;
+           text-align: center;
+            
+            flex-basis: 150px; /*(a caixa/item tera o tamanho de 150px)*/
+
+            flex-shrink: 0; /*(nao pode diminuir)*/
+            flex-grow: 0; /*padrao ( pode crescer)*/
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">a</div>
+        <div class="filho">b</div>
+        <div class="filho">c</div>
+    </div>
+</body>
+</html>
