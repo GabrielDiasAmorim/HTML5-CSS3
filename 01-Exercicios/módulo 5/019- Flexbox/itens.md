@@ -9,3 +9,7 @@ flex start
 flex end
 center
 stretch
+
+
+#flex-basis (tamanho do conteúdo)
+auto (parrao)
