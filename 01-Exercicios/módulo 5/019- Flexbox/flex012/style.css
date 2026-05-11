@@ -8,9 +8,14 @@ body {
     font-size: 1em;
     line-height: 1.5em;
 }
-p, h1, h2 {
+p {
     margin-bottom: 10px;
     text-align: justify;
+}
+ h1, h2 {
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: left;
 }
 .normal {
     padding: 20px;
@@ -33,9 +38,18 @@ p, h1, h2 {
 }
 div.text {
     flex: 1 1 500px;
-    /*border: 1px dotted blue;*/
+    
 }
 div.media {
     flex: 1 0 500px;
-   /* border: 1px dotted red;*/
+}
+.media img {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.media iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
 }
