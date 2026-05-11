@@ -43,12 +43,13 @@ div.text {
 div.media {
     flex: 1 0 500px;
 }
-.media img {
+div.media img {
     display: block;
     margin: auto;
     width: 300px;
+    padding: 10px;
 }
-.media iframe {
+div.media iframe {
     display: block;
     margin: auto;
     width: 90%;
