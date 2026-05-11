@@ -2,36 +2,64 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    background-color: lightgray;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
 }
 header {
-    background-color: rgba(85, 85, 85, 0.800);
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 header h1 {
-    color: white;
-    font-size: 1.5em;
+    border: 1px dotted black;
+    flex: 0 0 200px;
 }
-nav {
+header nav {
+    border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+nav a {
     background-color: black;
     color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
 }
 nav a:hover {
+    background-color: white;
+    color: black;
     transition: .3s;
 }
 main {
-    height: 400px;
-    width: 350px;
     background-color: white;
-    box-shadow: 1px 2px 2px rgba(4, 4, 5, 0.350);
-}
-main section h2 {
     color: black;
-    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.366);
+}
+
+@media screen and (max-width:545px){
+    header, header nav {
+        flex-flow: column nowrap;
+    }
+    header h1 {
+        flex-basis: 50px;
+    }
+    header nav a {
+        width: 90vw;
+    }
 }
