@@ -6,7 +6,7 @@
 }
 body {
     background-color: gray;
-    height: 100dvh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,8 @@ nav a:hover {
     transition: .3s;
 }
 main {
+    height: 400px;
+    width: 350px;
     background-color: white;
     box-shadow: 1px 2px 2px rgba(4, 4, 5, 0.350);
 }
