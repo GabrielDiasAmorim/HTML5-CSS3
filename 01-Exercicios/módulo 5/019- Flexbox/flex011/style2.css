@@ -52,7 +52,7 @@ main {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.366);
 }
 
-@media screen and (max-width:555px){
+@media screen and (max-width:565px){
     header, header nav {
         flex-flow: column nowrap;
     }
