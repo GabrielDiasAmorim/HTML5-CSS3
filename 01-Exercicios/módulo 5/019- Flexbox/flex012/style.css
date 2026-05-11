@@ -18,4 +18,25 @@ p, h1, h2 {
 .flex {
     padding: 20px;
     background-color: lightgray;
+    display: flex;
+    flex-flow: column nowrap;
+}
+article {
+    border: 1px dotted green;
+}
+.text {
+    display: flex;
+    flex-flow: row wrap;
+}
+.media {
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+div.text {
+    flex: 1 1 500px;
+    border: 1px dotted blue;
+}
+div.media {
+    flex: 1 0 500px;
+    border: 1px dotted red;
 }
