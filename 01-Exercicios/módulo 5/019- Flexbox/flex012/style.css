@@ -30,12 +30,12 @@ p, h1, h2 {
     display: flex;
     flex-flow: row wrap-reverse;/*
     justify-content: space-between;*/
-}/*
+}
 div.text {
-    flex: 1 1 500px;
-    border: 1px dotted blue;
+    flex: 1 1 400px;
+    /*border: 1px dotted blue;*/
 }
 div.media {
-    flex: 1 0 500px;
-    border: 1px dotted red;
-}*/
+    flex: 1 0 400px;
+   /* border: 1px dotted red;*/
+}
