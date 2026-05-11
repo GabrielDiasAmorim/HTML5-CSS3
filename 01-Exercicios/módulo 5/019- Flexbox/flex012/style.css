@@ -41,7 +41,7 @@ div.text {
     
 }
 div.media {
-    flex: 1 0 500px;
+    flex: 1 0 400px;
 }
 div.media img {
     display: block;
