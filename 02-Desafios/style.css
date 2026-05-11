@@ -13,7 +13,7 @@ header {
     background-color: gray;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
 }
