@@ -21,16 +21,16 @@ p, h1, h2 {
     display: flex;
     flex-flow: column nowrap;
 }
-.text {
+.text-media {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+  /*  flex-flow: row wrap;
+    justify-content: space-between;*/
 }
-.media {
+.media-text {
     display: flex;
-    flex-flow: row wrap-reverse;
-    justify-content: space-between;
-}
+    /*flex-flow: row wrap-reverse;
+    justify-content: space-between;*/
+}/*
 div.text {
     flex: 1 1 300px;
     border: 1px dotted blue;
@@ -38,4 +38,4 @@ div.text {
 div.media {
     flex: 1 0 300px;
     border: 1px dotted red;
-}
+}*/
