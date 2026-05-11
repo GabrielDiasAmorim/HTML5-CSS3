@@ -32,10 +32,10 @@ p, h1, h2 {
     justify-content: space-between;*/
 }
 div.text {
-    flex: 1 1 400px;
+    flex: 1 1 600px;
     /*border: 1px dotted blue;*/
 }
 div.media {
-    flex: 1 0 400px;
+    flex: 1 0 600px;
    /* border: 1px dotted red;*/
 }
