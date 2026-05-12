@@ -87,3 +87,19 @@ align (vertical/ cima pra baixo baixo pra cima)
 --------------------------------------------------------
 justify (horizontal esquerda pra direita direita pra esquerda)
 _________________________________________________________
+grid-auto-row (todas as linhas acrescentadas terão x valor)
+--------------------------------------------------------
+grid-auto-column (quando criar um nova coluna ele acrescenta automaticamente x valor)
+--------------------------------------------------------
+place-items (vai simplificar o align-items e justify-items (ordem: align-items -> justify-items))
+--------------------------------------------------------
+place-content (vai simplificar o align-content e justify-content(ordem: align-content -> justify-content))
+--------------------------------------------------------
+grid-template (vai simplificar o grid-templete-columns e grid-templete-rows (ordem: grid-templete-rows -> grid-templete-columns))
+—————————————————————————————————————————————————————————
+
+função repeat()
+(ele simplificar o comando de grid-templete-columns e rows(exemplo: repeat(3, 100px) repeat(3, auto) ))
+--------------------------------------------------------
+unidade fraction (ele vai pegar a largura inteira do contêiner/pai e vai dividir pelo o número de colunas wue voce declarou (usa no grid-templete-colimns: 1fr 1fr 1fr))
+—————————————————————————————————————————————————————————
