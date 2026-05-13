@@ -121,3 +121,33 @@ grid-row (simplificar o grid row (1/4))
 grid-column (simplificar o grid column (1/3))
 
 grid-area (simplifica o grid-row r grid-column (1/1/4/3;)(ordem: grid-row-start -> grid-column-start -> grid-row-end -> grid-column-end))
+
+
+simplificando declarações 
+---------------------|
+completa             |
+grid-row-satrt: 1;   |
+grid-row-end: 1;     |
+grid-column-start: 4;|
+grid-column-end: 3;  |
+---------------------|
+
+
+---------------------|
+simplificada 1       |
+grid-row: 1/4;       |
+grid-column: 1/3;    |
+                     |
+com span             |
+grid-row:  1/span 3; |
+grid-column:1/span 2;|
+---------------------|
+
+
+---------------------------|
+simplificada 2             |
+grid-area: 1/1/4/3;        |
+                           |
+com span                   |
+grid-area: 1/1lspan3/span2;|
+---------------------------|
