@@ -120,4 +120,4 @@ grid-row (simplificar o grid row (1/4))
 
 grid-column (simplificar o grid column (1/3))
 
-grid-area ()
+grid-area (simplifica o grid-row r grid-column (1/1/4/3;)(ordem: grid-row -> grid-column))
