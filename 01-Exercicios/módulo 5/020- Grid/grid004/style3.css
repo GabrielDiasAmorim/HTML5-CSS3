@@ -9,7 +9,7 @@
 }
 
 .caixa1 {
-    background-color: yellow;
+    background-color: red;
     /*grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -21,7 +21,7 @@
     grid-column: 1 / span 4;
 }
 .caixa2 {
-    background-color: blue;
+    background-color: purple;
    /* grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -33,7 +33,7 @@
     grid-column: 1 / span 2;
 }
 .caixa3 {
-    background-color: green;
+    background-color: pink;
     /*grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 3;
