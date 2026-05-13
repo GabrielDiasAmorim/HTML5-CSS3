@@ -113,3 +113,11 @@ grid-row-end (linha final(onde termina))
 grid-columns-start (coluna de começo(onde começa))
 
 grid-columns-end (coluna final(onde termina))
+
+span (espanção)
+
+grid-row (simplificar o grid row (1/4))
+
+grid-column (simplificar o grid column (1/3))
+
+grid-area ()
