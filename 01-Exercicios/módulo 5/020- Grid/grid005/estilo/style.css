@@ -7,7 +7,8 @@
 .pai {
     background-color: yellow;
     display: grid;
-    grid-template: repeat(4, 150px) repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: repeat(4, 150px);
 }
 .topo {
     background-color: aquamarine;
