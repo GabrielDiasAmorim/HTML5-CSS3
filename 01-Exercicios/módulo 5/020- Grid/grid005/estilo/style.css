@@ -8,29 +8,35 @@
     background-color: yellow;
     display: grid;
     grid-template-rows: repeat(4, 150px);
-    grid-template-columns: repeat(4, 150px);
+    grid-template-columns: repeat(4, 1fr);
+    border: 3px solid blue;
 }
 .topo {
+    border: 3px solid red;
     background-color: aquamarine;
     grid-row: 1/2;
     grid-column: 1/5;
 }
 .menu {
+    border: 3px solid red;
     background-color: bisque;
     grid-row: 2/3;
     grid-column: 2/5;
 }
 .principal {
+    border: 3px solid red;
     background-color: coral;
     grid-row: 3/5;
     grid-column: 3/3;
 }
 .secundario {
+    border: 3px solid red;
     background-color: cornflowerblue;
     grid-row: 3/5;
     grid-column: 3/5;
 }
 .rodape {
+    border: 3px solid red;
     background-color: brown;
     grid-row: 5/5;
     grid-column: 5/5;
