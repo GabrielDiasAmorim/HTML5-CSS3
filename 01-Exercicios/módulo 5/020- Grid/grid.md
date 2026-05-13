@@ -103,3 +103,13 @@ função repeat()
 --------------------------------------------------------
 unidade fraction (ele vai pegar a largura inteira do contêiner/pai e vai dividir pelo o número de colunas wue voce declarou (usa no grid-templete-colimns: 1fr 1fr 1fr))
 —————————————————————————————————————————————————————————
+
+propriedades para itens no grid layout 
+
+grid-row-start (linha de começo(onde tudo começa))
+
+grid-row-end (linha final(onde termina))
+
+grid-columns-start (coluna de começo(onde começa))
+
+grid-columns-end (coluna final(onde termina))
