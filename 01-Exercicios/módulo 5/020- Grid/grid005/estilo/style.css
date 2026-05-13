@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pai {
+    background-color: yellow;
+    display: grid;
+    grid-template: repeat(4, 150px) repeat(4, 150px);
+}
+.topo {
+    background-color: aquamarine;
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+.menu {
+    background-color: bisque;
+    grid-row: 2/3;
+    grid-column: 2/5;
+}
+.principal {
+    background-color: coral;
+    grid-row: 3/5;
+    grid-column: 3/3;
+}
+.secundario {
+    background-color: cornflowerblue;
+    grid-row: 3/5;
+    grid-column: 3/5;
+}
+.rodape {
+    background-color: brown;
+    grid-row: 5/5;
+    grid-column: 5/5;
+}
