@@ -64,8 +64,8 @@ space-between (vai colar o primeiro conteúdo na parte de cima e o último na pa
 space-evenly (vai reposicionar os itens so que o espaço acima e abaixo entre os itens vai ser exatamente o mesmo)
 --------------------------------------------------------
 space-around (vai distribuir para que Acima e abaixo de cada elemento tenha o mesmo espaço so que o primeiro e o último vai estar mais perto da borda)
-—————————————————————————————————————————————————————————
-_________________________________________________________
+————————————————————————————————————————————————————————
+________________________________________________________
 ###### ##########
 justify-content =[horizontal]
 ###### ##########
@@ -81,7 +81,7 @@ space-between (vai colar na esquerda e na direita)
 space-evenly ( vai pagar todos os elementos e o espaço entre eles vai ser o mesmo)
 --------------------------------------------------------
 space-around (vai criar um espaço entre os elementos e todo os elementos terao o mesmo espaço, só que o último e o primeiro vai estar mais perto da borda)
-—————————————————————————————————————————————————————————
+————————————————————————————————————————————————————————
 _________________________________________________________
 align (vertical/ cima pra baixo baixo pra cima)
 --------------------------------------------------------
@@ -96,33 +96,41 @@ place-items (vai simplificar o align-items e justify-items (ordem: align-items -
 place-content (vai simplificar o align-content e justify-content(ordem: align-content -> justify-content))
 --------------------------------------------------------
 grid-template (vai simplificar o grid-templete-columns e grid-templete-rows (ordem: grid-templete-rows -> grid-templete-columns))
-—————————————————————————————————————————————————————————
+————————————————————————————————————————————————————————
 
 função repeat()
 (ele simplificar o comando de grid-templete-columns e rows(exemplo: repeat(3, 100px) repeat(3, auto) ))
 --------------------------------------------------------
 unidade fraction (ele vai pegar a largura inteira do contêiner/pai e vai dividir pelo o número de colunas wue voce declarou (usa no grid-templete-colimns: 1fr 1fr 1fr))
-—————————————————————————————————————————————————————————
-
+————————————————————————————————————————————————————————
+###### ##################################
 propriedades para itens no grid layout 
-
+###### ##################################
 grid-row-start (linha de começo(onde tudo começa))
+--------------------------------------------------------
 
 grid-row-end (linha final(onde termina))
+--------------------------------------------------------
 
 grid-columns-start (coluna de começo(onde começa))
+--------------------------------------------------------
 
 grid-columns-end (coluna final(onde termina))
+--------------------------------------------------------
 
 span (espanção)
+--------------------------------------------------------
 
 grid-row (simplificar o grid row (1/4))
+--------------------------------------------------------
 
 grid-column (simplificar o grid column (1/3))
+--------------------------------------------------------
 
 grid-area (simplifica o grid-row r grid-column (1/1/4/3;)(ordem: grid-row-start -> grid-column-start -> grid-row-end -> grid-column-end))
+--------------------------------------------------------
 
-
+————————————————————————————————————————————————————————
 simplificando declarações 
 ---------------------|
 completa             |
