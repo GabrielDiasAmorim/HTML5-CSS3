@@ -12,8 +12,18 @@
         <source media="max-width: 600px" srcset="midia/foto-p.png" type="image/png">
         <img src="midia/foto-g.png" alt="foto g">
     </picture>
-    <audio src="midia/audio.mp3"></audio>
     <hr>
-    <video src="midia/video.mp4"></video>
+
+   <!--<audio src="midia/audio.mp3"></audio>-->
+
+    <audio preload="metadata" controls autoplay>
+        <source src"midia/audio.mpeg" type="audio/mp3">
+    </audio>
+    <hr>
+    <!--<video src="midia/video.mp4"></video>-->
+
+    <video width="600" controls autoplay>
+        <source src="midia/video.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
